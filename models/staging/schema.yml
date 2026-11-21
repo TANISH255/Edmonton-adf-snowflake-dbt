@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_requests
+    description: "Cleaned Edmonton requests in Silver"
+    columns:
+      - name: request_number
+        tests:
+          - not_null
+          - unique
+      - name: request_creation_date
+        tests:
+          - not_null
+      - name: status
+        tests:
+          - not_null   

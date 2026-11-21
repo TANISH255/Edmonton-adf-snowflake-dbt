@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: AZUREDF_DBT_DB
+    schema: BRONZE
+    tables:
+      - name: edmonton_requests_raw
