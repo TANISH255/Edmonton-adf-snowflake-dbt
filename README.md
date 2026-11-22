@@ -195,9 +195,9 @@ Check the loaded data:
 SELECT * FROM AZUREDF_DBT_DB.BRONZE.EDMONTON_REQUESTS_RAW LIMIT 20;
 SELECT COUNT(*) AS cnt FROM AZUREDF_DBT_DB.BRONZE.EDMONTON_REQUESTS_RAW;
 ```
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/c3b46125-c874-40bd-89e1-ceeca2ee625c" />
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/c3b46125-c874-40bd-89e1-ceeca2ee625c" />
 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/73e16801-f519-4728-9157-80d66259be54" />
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/73e16801-f519-4728-9157-80d66259be54" />
 
 
 ### 3. dbt project
@@ -342,11 +342,11 @@ Issues hit while building the ingestion pipeline and how they were fixed:
 ## Screenshots
 
 **Snowflake layers (Bronze, Intermediate, Gold)**
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/c6d842fb-3c29-490b-8ca5-1ef051b11fef" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/c6d842fb-3c29-490b-8ca5-1ef051b11fef" />
 
 
 **Project structure**
-<img width="726" height="1000" alt="image" src="https://github.com/user-attachments/assets/a79c1129-390a-43eb-b044-623056314f16" />
+<img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/a79c1129-390a-43eb-b044-623056314f16" />
 
 
 ---
