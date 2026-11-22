@@ -195,6 +195,10 @@ Check the loaded data:
 SELECT * FROM AZUREDF_DBT_DB.BRONZE.EDMONTON_REQUESTS_RAW LIMIT 20;
 SELECT COUNT(*) AS cnt FROM AZUREDF_DBT_DB.BRONZE.EDMONTON_REQUESTS_RAW;
 ```
+<img width="1919" height="760" alt="image" src="https://github.com/user-attachments/assets/c3b46125-c874-40bd-89e1-ceeca2ee625c" />
+
+<img width="1554" height="778" alt="image" src="https://github.com/user-attachments/assets/73e16801-f519-4728-9157-80d66259be54" />
+
 
 ### 3. dbt project
 
@@ -338,16 +342,12 @@ Issues hit while building the ingestion pipeline and how they were fixed:
 ## Screenshots
 
 **Snowflake layers (Bronze, Intermediate, Gold)**
-![Snowflake layers](docs/images/snowflake_layers.png)
+<img width="2318" height="1540" alt="image" src="https://github.com/user-attachments/assets/c6d842fb-3c29-490b-8ca5-1ef051b11fef" />
 
-**ADF pipeline run: Web activity → Copy to Snowflake (Succeeded)**
-![ADF pipeline](docs/images/adf_pipeline_success.png)
-
-**Bronze table in Snowflake**
-![Bronze data](docs/images/bronze_raw_data.png)
 
 **Project structure**
-![Project structure](docs/images/project_structure.png)
+<img width="726" height="1676" alt="image" src="https://github.com/user-attachments/assets/a79c1129-390a-43eb-b044-623056314f16" />
+
 
 ---
 
